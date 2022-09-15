@@ -1,0 +1,17 @@
+{
+  "coverage": "100%",
+  "expectCount": 2,
+  "actualCount": 2,
+  "files": {
+    "src/_join.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/join.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}
