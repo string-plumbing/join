@@ -1,19 +1,8 @@
 # Usage
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
-First, require the polyfill at the entry point of your application
+Import the library where needed
 ```js
-await import('regenerator-runtime/runtime.js');
+const {join, _join} = await import('@string-plumbing/join');
 // or
-import 'regenerator-runtime/runtime.js';
-```
-
-Then, import the library where needed
-```js
-const join = await import('@string-plumbing/join');
-// or
-import * as join from '@string-plumbing/join';
+import {join, _join} from '@string-plumbing/join';
 ```
