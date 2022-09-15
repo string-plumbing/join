@@ -1,15 +1,14 @@
 :oden: [@string-plumbing/join](https://string-plumbing.github.io/join)
 ==
 
-Join an Iterable of strings for JavaScript.
+Join an Iterable of strings with JavaScript.
 See [docs](https://string-plumbing.github.io/join/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
+```js
+import {join} from '@string-plumbing/join';
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+join(['b', 'n', 'n', ''], 'a'); // 'banana'
+```
 
 [![License](https://img.shields.io/github/license/string-plumbing/join.svg)](https://raw.githubusercontent.com/string-plumbing/join/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-plumbing/join.svg)](https://www.npmjs.org/package/@string-plumbing/join)
