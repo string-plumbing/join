@@ -1,4 +1,5 @@
 import {list} from '@iterable-iterator/list';
+
 import _join from './_join.js';
 
 /**
