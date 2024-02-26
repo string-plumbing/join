@@ -12,7 +12,7 @@ join(['b', 'n', 'n', ''], 'a'); // 'banana'
 
 [![License](https://img.shields.io/github/license/string-plumbing/join.svg)](https://raw.githubusercontent.com/string-plumbing/join/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-plumbing/join.svg)](https://www.npmjs.org/package/@string-plumbing/join)
-[![Tests](https://img.shields.io/github/workflow/status/string-plumbing/join/ci?event=push&label=tests)](https://github.com/string-plumbing/join/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/string-plumbing/join/ci.yml?branch=main&event=push&label=tests)](https://github.com/string-plumbing/join/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/string-plumbing/join.svg)](https://github.com/string-plumbing/join/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-plumbing/join.svg)](https://github.com/string-plumbing/join/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-plumbing/join.svg)](https://www.npmjs.org/package/@string-plumbing/join)
